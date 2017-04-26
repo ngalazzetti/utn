@@ -21,7 +21,7 @@ int main(int argc, char** argv) {
     cin>>num;
     cout<<endl;
     cout<<"Los multiplos de "<<num<<" son: ";
-    for(int i=num;i<num+10;i++){
+    for(int i=num;i<num+50;i++){
         if(i%num==0){
             cout<<i<<" - ";
         }
